@@ -34,3 +34,54 @@ main{
     overflow: hidden;
     border-top: 1px solid   cyan;
 }
+.card{
+    background-color: cyan;
+}
+.features{
+    padding-top: 5rem;
+}
+.title{
+    color: white;
+    padding-top: 3rem;
+}
+h5{
+    color: white;
+}
+p{
+    color: white;
+}
+.icons{
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+.iconos{
+    padding-left: 1rem;
+    padding-right: 1rem
+}
+.iconos .card{
+    border: cyan 1px solid;
+}
+.card i{
+    display: inline-block;
+    width: 100%;
+}
+div i{
+    text-align: center;
+    color: white;
+}
+.cardphotos {
+    padding-top: 10rem;
+}
+/*footer*/
+
+.oscuro {
+    background: #000f08;
+    color: #ffffff;
+  }
+  
+  .oscuro a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
