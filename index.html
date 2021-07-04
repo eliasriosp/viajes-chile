@@ -4,49 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script> -->
+    <!--Importar Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+          integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!--Importar iconos-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <!--Importar fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!--Importar estilos propios-->
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>Viajes Chile</title>
 </head>
 <body>
 
-    
-
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="assets/img/viajes.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
-                Viajes Chile
-              </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-      
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Inicio">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Quienes-somos">Quienes Somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Destacados">Destacados</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Contacto">Contacto</a>
-                    </li>
-                    
-            </div>
-        </div>
-    </nav>
+    <!-- HEADER START-->
     <header id="Inicio">
-
+        <!--inicio navbar-->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/viajes.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                    Viajes Chile
+                  </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+          
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Quienes-somos">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Destacados">Destacados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contacto">Contacto</a>
+                        </li>
+                        
+                </div>
+            </div>
+        </nav>
+        <!--fin navbar-->
+        <!--inicio carousel-->
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -68,28 +74,32 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
+          <!--fin navbar-->
     </header>
+    <!-- HEADER END-->
+    <!-- MAIN START-->
     <main>
         <div class="container">
-            <section class="features desc-section">
+            <!--inicio card favicons-->
+            <section class="features desc-section d-none d-sm-block">
                 <h2 class="title text-center py-3 px-3" id="Quienes-somos">Quienes Somos</h2>
-                <div class="divider"></div>
+                <div class="divider "></div>
                 <div class="icons">
                     <div class="row row-cols-1 row-cols-md-3 pt-5">
                         <div class="iconos col-md-4 mt-4">
-                            <div class="card">
+                            <div class="card bg-info">
                                 <div><i class="fas fa-plane"></i></div>
                             </div>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae inventore iusto a, commodi, dolores in minus quod explicabo corporis error doloribus natus ipsam fugiat, neque fuga aliquid. Nostrum, corporis magnam. Pariatur eius laboriosam vitae debitis possimus eligendi tempora repudiandae velit, neque, et, nobis ut at in distinctio molestiae temporibus labore!</p>
                         </div>
                         <div class="iconos col-md-4 mt-4">
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti magnam id sint corporis ipsum? Ratione alias quasi doloribus accusamus assumenda quibusdam maiores placeat, iste cum necessitatibus minus optio voluptas repellat obcaecati ad facere pariatur ex? Autem voluptatibus nostrum amet tenetur veritatis! Ut, eos et? Saepe, laborum! Aut obcaecati omnis similique?</p>
-                            <div class="card">
+                            <div class="card bg-info">
                                 <div><i class="fas fa-mountain"></i></div>
                             </div>
                         </div>
                         <div class="iconos col-md-4 mt-4">
-                            <div class="card">
+                            <div class="card bg-info">
                                 <div><i class="fas fa-route"></i></div>
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae magnam quaerat aspernatur alias laboriosam dolorum fugit soluta eveniet unde, quisquam at adipisci asperiores, in, amet voluptate explicabo voluptates. Officiis voluptatum ratione deleniti perspiciatis, distinctio assumenda facilis! Laborum porro, cumque sunt nesciunt architecto molestias nulla eveniet commodi sint eligendi blanditiis sapiente.</p>
@@ -97,12 +107,14 @@
                     </div>
                 </div>
             </section>
+            <!--fin card favicons-->
+            <!--inicio card fotos-->
             <section class="cardphotos">
                 <h2 class="title text-center py-3 px-3" id="Destacados">Destacadas</h2>
-                <div class="divider pb-2"></div>
+                <div class="divider pb-2 "></div>
                 <section class="row row-cols-1 row-cols-md-3 ">
                     <div class="col-md-3">
-                        <div class="card  mb-2 mt-4">
+                        <div class="card-i bg-info  mb-2 mt-4">
                             <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title h5-bold pr-5">Lorem ipsum dolor sit amet</h5>
@@ -112,7 +124,7 @@
                     </div>
           
                     <div class="col-md-3">
-                        <div class="card  mb-2 mt-4">
+                        <div class="card-i bg-info  mb-2 mt-4">
                             <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title h5-bold pr-5">Lorem ipsum dolor sit</h5>
@@ -122,7 +134,7 @@
                     </div>
           
                     <div class="col-md-3">
-                        <div class="card mb-2 mt-4">
+                        <div class="card-i bg-info mb-2 mt-4">
                             <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title h5-bold pr-5">Lorem ipsum dolor sit</h5>
@@ -131,7 +143,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                      <div class="card  mb-2 mt-4">
+                      <div class="card-i bg-info  mb-2 mt-4">
                           <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
                           <div class="card-body">
                             <h5 class="card-title h5-bold pr-5">Lorem ipsum dolor sit amet</h5>
@@ -141,48 +153,54 @@
                   </div>
                 </section>
             </section>
+            <!--fin card fotos-->
         </div>
     </main>
-
+    <!-- MAIN END-->
+    <!-- FOOTER START-->
     <footer >
-        <h2 id="Contacto" class="title text-center py-3 px-3">Contancto</h2>
-        <div class="divider"></div>
-        <div class="container py-3">
-            <section class="row bg-white mt-5 mx-0">
-                <div class="col">
-                    <div class="px-3">
-                        <h2 class="text-center text-black pb-4">Hola, gracias por contactarnos</h2>
-                        <div class="px-3 pt-3 text-center">
-                            <button type="button" class="btn btn-primary  mt-3 text-white" >Comenzar</button><p >pulse Enter</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-       
+        <section id="contacto" class="container text-center py-5">
+            <div>
+                <h3 class="text-center text-white pb-3">Contacto</h3>
+                <div class="divider pb-2 "></div>
+                <div class="typeform-widget" data-url="https://form.typeform.com/to/yKq9rxbJ?typeform-medium=embed-snippet"
+                     data-hide-headers="true" data-hide-footer="true" style="width: 100%; height: 500px;"></div>
+                <script> (function () {
+                  var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName,
+                    id = "typef_orm", b = "https://embed.typeform.com/";
+                  if (!gi.call(d, id)) {
+                    js = ce.call(d, "script");
+                    js.id = id;
+                    js.src = b + "embed.js";
+                    q = gt.call(d, "script")[0];
+                    q.parentNode.insertBefore(js, q)
+                  }
+                })() </script>
+            </div>
+        </section>
         <div class="base bg-info py-1">
-            <div class="container">
+            <div class="container d-flex justify-content-between">
+                <div class="text-white text-left">
+                    <h5>VIAJES CHILE</h5>
+                </div>
                 <div class="text-right">
                     <a href="https://github.com"><i class="fab fa-github-square fa-2x"></i></a>
                     <a href="https://twitter.com"><i class="fab fa-twitter-square fa-2x"></i></a>
                     <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-2x"></i></a>
                     <a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-2x"></i></a>
                 </div> 
-                <div class="text-white text-left">
-                    <h5>VIAJES CHILE</h5>
-                </div>
             </div>
         </div>
 	</footer>
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-   
-   
-
-    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script> -->
-
+    <!-- FOOTER END-->
+    <!--JQUERY 3.5.1-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!--POPPWE-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <!--BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <!--MY MAIN JQUERY-->
+    <script src="assets/js/main.js"></script>
   
 </body>
 </html>

@@ -32,10 +32,15 @@ body{
     height: 0;
     margin: 0.5rem 0;
     overflow: hidden;
-    border-top: 1px solid   cyan;
+    border-top: 1px solid rgb(40, 179, 184);
 }
-.card{
-    background-color: cyan;
+
+
+.card-i img{
+    height: 150px;
+}
+.card-i{
+    height: 400px;
 }
 .features{
     padding-top: 5rem;
@@ -59,9 +64,7 @@ p{
     padding-left: 1rem;
     padding-right: 1rem
 }
-.iconos .card{
-    border: cyan 1px solid;
-}
+
 .card i{
     display: inline-block;
     width: 100%;
@@ -75,14 +78,10 @@ div i{
 }
 /*footer*/
 
-.oscuro {
-    background: #000f08;
-    color: #ffffff;
-  }
-  
-  .oscuro a{
-    color: #ffffff;
-    text-decoration: none;
-    
-  }
-  
+#comenzar{
+    height: 400px;
+    text-align: center;
+}
+#Contacto{
+    padding-top: 30px;
+}
