@@ -2,11 +2,30 @@ body *{
     padding: 0;
     margin: 0%;
 }
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    color: white;
+}
+p{
+    font-family: sans-serif;
+}
+h2{
+    font-family: 'Oswald';
+    font-weight: 500;
+}
+h5{
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+/*  header inicio */
+/* Navbar  */
 
 .navbar-brand{
-    font-size: 40px;
+    font-size: 20px;
     font-family: "Oswald";
-    font-weight: bold;
+    font-weight: lighter;
 }
 .nav{
     position: absolute;
@@ -16,18 +35,8 @@ body *{
     width: 100%;
     background-color: transparent !important;;
 }
-#Hero-Section{
-    height: 100%;
-    position:relative;
-    text-align: start;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    z-index: 0;
-}
-body{
-    background-color: rgb(0, 0, 0);
-}
+/* main */
+/* Dividor de secciones */
 .divider {
     height: 0;
     margin: 0.5rem 0;
@@ -35,13 +44,8 @@ body{
     border-top: 1px solid rgb(40, 179, 184);
 }
 
+/* Seccion de iconos */
 
-.card-i img{
-    height: 150px;
-}
-.card-i{
-    height: 400px;
-}
 .features{
     padding-top: 5rem;
 }
@@ -49,12 +53,7 @@ body{
     color: white;
     padding-top: 3rem;
 }
-h5{
-    color: white;
-}
-p{
-    color: white;
-}
+/* Seccion de quienes somos */
 .icons{
     padding-left: 2rem;
     padding-right: 2rem;
@@ -73,15 +72,15 @@ div i{
     text-align: center;
     color: white;
 }
+/* Seccion de fotos destacado */
 .cardphotos {
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
-/*footer*/
+.card-i img{
+    height: 150px;
+}
+/*footer sector contacto*/
 
-#comenzar{
-    height: 400px;
-    text-align: center;
-}
-#Contacto{
-    padding-top: 30px;
+footer{
+    padding-top: 8rem;
 }
